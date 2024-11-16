@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #a1a1a1;
+}
+
+/* Стили для основного контейнера */
+.tetris-playground {
+  display: flex;
+  flex-direction: column;
+  width: 200px; /* ширина игрового поля */
+  border: 2px solid #000; /* граница поля */
+  background-color: #333; /* фон поля */
+}
+
+/* Стили для каждой строки */
+.row {
+  display: flex;
+}
+
+/* Стили для каждой ячейки */
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #444; /* тонкая граница между ячейками */
+  background-color: #111; /* цвет ячеек */
+  transition: background-color 0.1s;
+}
+
+
+
+
+
+
+
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #7c7b7b; /* тонкая рамка */
+  background-color: #111; /* базовый цвет ячейки */
+}
+
+.cell.active {
+  background-color: #666; /* активная ячейка */
+  border-color: #888;
+}
+
+.cell.filled {
+  border: 1px solid #000;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+body {
+  font-family: "Doto", sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f0f0f0;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+
+
+
+
